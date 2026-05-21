@@ -1,0 +1,21 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lease rent purchase comparison visual</title>
+  <desc id="desc">Blue and white cards comparing lease, rent, and purchase.</desc>
+  <rect width="900" height="560" rx="28" fill="#EFF6FF"/>
+  <rect x="52" y="58" width="796" height="444" rx="24" fill="#FFFFFF" stroke="#C7DDF8" stroke-width="3"/>
+  <rect x="96" y="108" width="204" height="302" rx="22" fill="#F8FBFF" stroke="#D7E7FB"/>
+  <rect x="348" y="108" width="204" height="302" rx="22" fill="#F8FBFF" stroke="#D7E7FB"/>
+  <rect x="600" y="108" width="204" height="302" rx="22" fill="#F8FBFF" stroke="#D7E7FB"/>
+  <rect x="126" y="142" width="144" height="46" rx="23" fill="#DBEAFE"/>
+  <rect x="378" y="142" width="144" height="46" rx="23" fill="#DBEAFE"/>
+  <rect x="630" y="142" width="144" height="46" rx="23" fill="#DBEAFE"/>
+  <text x="198" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1D4ED8">LEASE</text>
+  <text x="450" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1D4ED8">RENT</text>
+  <text x="702" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1D4ED8">BUY</text>
+  <path d="M136 240H260M136 288H260M136 336H235" stroke="#94A3B8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M388 240H512M388 288H512M388 336H487" stroke="#94A3B8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M640 240H764M640 288H764M640 336H739" stroke="#94A3B8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M156 454H744" stroke="#2563EB" stroke-width="22" stroke-linecap="round" opacity=".18"/>
+  <circle cx="450" cy="454" r="24" fill="#2563EB"/>
+  <path d="M438 454L447 463L465 443" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

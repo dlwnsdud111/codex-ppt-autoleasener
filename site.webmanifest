@@ -1,0 +1,16 @@
+{
+  "name": "AUTO LEASENER",
+  "short_name": "AUTO LEASENER",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1455b8",
+  "icons": [
+    {
+      "src": "./assets/autoleasener-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

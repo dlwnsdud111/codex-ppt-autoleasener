@@ -1,0 +1,14 @@
+<svg width="920" height="560" viewBox="0 0 920 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Leasejun TV promotion card</title>
+  <desc id="desc">A clean YouTube promotion visual for Leasejun TV.</desc>
+  <rect width="920" height="560" rx="32" fill="#FFFFFF"/>
+  <rect x="40" y="46" width="840" height="468" rx="28" fill="#EFF6FF" stroke="#C9DDF7" stroke-width="3"/>
+  <rect x="92" y="111" width="736" height="318" rx="24" fill="#0F172A"/>
+  <path d="M420 230C420 213 438 202 453 211L533 257C548 266 548 288 533 297L453 343C438 352 420 341 420 324V230Z" fill="#FFFFFF"/>
+  <rect x="139" y="459" width="240" height="22" rx="11" fill="#2563EB" opacity=".24"/>
+  <rect x="139" y="489" width="412" height="16" rx="8" fill="#2563EB" opacity=".14"/>
+  <circle cx="739" cy="474" r="34" fill="#2563EB"/>
+  <path d="M727 474H751M739 462V486" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M132 88H300" stroke="#2563EB" stroke-width="16" stroke-linecap="round" opacity=".25"/>
+  <path d="M724 88H793" stroke="#38BDF8" stroke-width="16" stroke-linecap="round" opacity=".45"/>
+</svg>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dlwnsdud111.github.io/codex-ppt-autoleasener/sitemap.xml
+Sitemap: https://autoleasener.co.kr/sitemap.xml

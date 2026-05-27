@@ -8,24 +8,23 @@
 - `site.webmanifest`: 사이트 이름과 색상 정보
 - `assets/`: 로고와 홈페이지용 이미지 자료
 
-## 도메인 후보
+## 확정 도메인
 
-아래 중 하나를 추천합니다.
+대표 도메인은 아래 주소로 확정했습니다.
 
 - `autoleasener.co.kr`
-- `autoleasener.kr`
-- `autoleasener.com`
 
-실제 도메인은 등록 대행사에서 구매해야 합니다.
-도메인을 구매한 뒤에는 호스팅 주소로 DNS를 연결해야 합니다.
+가비아에서 등록을 완료했습니다.
+GitHub Pages 공개본과 연결하기 위해 DNS 설정 및 Pages 사용자 지정 도메인 확인이 필요합니다.
 
-## 무료 공개 주소 선택지
+## 배포 주소
 
-GitHub Pages를 쓰면 아래 주소 형태로 먼저 공개할 수 있습니다.
+대표 공개 주소:
 
-`https://dlwnsdud111.github.io/codex-ppt-autoleasener/`
+`https://autoleasener.co.kr/`
 
-이 주소로 먼저 네이버 검색 등록을 진행하고, 나중에 개인 도메인을 붙일 수 있습니다.
+호스팅은 기존 GitHub 저장소의 GitHub Pages를 사용합니다.
+`CNAME` 파일과 검색용 메타 정보는 대표 도메인 기준으로 설정합니다.
 
 ## 네이버 검색 노출 준비 순서
 
@@ -36,10 +35,10 @@ GitHub Pages를 쓰면 아래 주소 형태로 먼저 공개할 수 있습니다
 5. `index.html`의 주석 위치에 메타 태그를 넣거나, 네이버가 주는 인증 파일을 루트에 추가합니다.
 6. `sitemap.xml`을 제출합니다.
 7. `robots.txt` 수집이 정상인지 확인합니다.
+8. 네이버 지도 API 설정의 웹 서비스 URL에 `https://autoleasener.co.kr`을 추가합니다.
 
 ## 사용자가 확인해야 할 것
 
-- 최종 도메인 이름
 - 상담 전화번호 또는 카카오 링크
 - 리스준 유튜브 채널 링크가 현재 채널과 맞는지
 - 실제 공개할 회사 소개 문구

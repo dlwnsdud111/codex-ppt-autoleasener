@@ -392,54 +392,35 @@
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_next" value="https://autoleasener.co.kr/thanks.html">
           <label>
-            원하는 차종
-            <input type="text" name="원하시는 차종" placeholder="예: BMW 5시리즈, 벤츠 E클래스">
+            존함
+            <input type="text" name="존함" autocomplete="name" placeholder="예: 홍길동" required>
           </label>
           <label>
-            연락처 / 지역
-            <input type="text" name="연락처 / 지역" placeholder="예: 010-0000-0000 / 경기 의왕">
-          </label>
-          <label>
-            초기자금
-            <input type="text" name="초기자금" placeholder="예: 무보증, 보증금 500만원, 선수금 10%">
+            희망 차종
+            <input type="text" name="희망 차종" placeholder="예: 아우디 A6" required>
           </label>
           <label>
             구매방식
-            <select name="구매방식">
+            <select name="구매방식" required>
               <option>리스</option>
               <option>렌트</option>
-              <option>현금</option>
               <option>할부</option>
-              <option>상담 후 결정</option>
+              <option>현금</option>
             </select>
           </label>
           <label>
-            계약년수
-            <select name="계약년수">
-              <option>36개월</option>
-              <option>48개월</option>
-              <option>60개월</option>
-              <option>상담 후 결정</option>
-            </select>
-          </label>
-          <label>
-            연간주행거리
-            <select name="연간주행거리">
-              <option>1만 km</option>
-              <option>2만 km</option>
-              <option>3만 km</option>
-              <option>상담 후 결정</option>
-            </select>
+            연락처
+            <input type="tel" name="연락처" autocomplete="tel" inputmode="tel" placeholder="예: 010-0000-0000" required>
           </label>
           <label class="privacy-consent">
             <input type="checkbox" id="privacy-consent" name="개인정보 수집 및 이용 동의" value="동의함" required>
             <span>
               개인정보 수집 및 이용에 동의합니다. <button class="privacy-open" type="button">내용 보기</button>
-              <small>체크 시 동의 안내문을 확인한 뒤 상담 신청을 진행할 수 있습니다.</small>
+              <small>필수 항목이며, 내용 보기를 눌러 상세 내용을 확인할 수 있습니다.</small>
             </span>
           </label>
-          <button type="submit" disabled>상담 신청하기</button>
-          <p class="form-note">개인정보 동의에 체크하셔야 상담 신청이 가능합니다.</p>
+          <button type="submit" disabled>견적 요청</button>
+          <p class="form-note">입력하신 정보는 견적 상담 목적으로만 사용됩니다.</p>
         </form>
         <dialog class="privacy-dialog" id="privacy-dialog" aria-labelledby="privacy-title">
           <div class="privacy-dialog-head">
@@ -450,7 +431,7 @@
             <p>차량 문의 상담을 위해 아래 정보를 수집하고 이용합니다.</p>
             <dl>
               <dt>수집 항목</dt>
-              <dd>원하시는 차종, 연락처/지역, 초기자금, 구매방식, 계약년수, 연간주행거리</dd>
+              <dd>존함, 희망 차종, 구매방식, 연락처</dd>
               <dt>이용 목적</dt>
               <dd>차량 견적 확인, 리스·렌트 상담 안내 및 상담 회신</dd>
               <dt>전달 방식</dt>

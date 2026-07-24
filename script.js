@@ -1,7 +1,9 @@
 const header = document.querySelector(".site-header");
 
 const setHeaderState = () => {
-  header.dataset.elevated = window.scrollY > 8 ? "true" : "false";
+  if (header) {
+    header.dataset.elevated = window.scrollY > 8 ? "true" : "false";
+  }
 };
 
 setHeaderState();
@@ -129,17 +131,6 @@ if (privacyConsent && inquirySubmitButton) {
       privacyDialog.showModal();
     }
   };
-
-  privacyConsent.addEventListener("click", (event) => {
-    if (!privacyConsent.checked) {
-      return;
-    }
-
-    event.preventDefault();
-    privacyConsent.checked = false;
-    updateInquiryState();
-    openPrivacyDialog();
-  });
 
   privacyOpenButton?.addEventListener("click", (event) => {
     event.preventDefault();
